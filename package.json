@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "name": "tes-upa-lbk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch",
+    "build": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
